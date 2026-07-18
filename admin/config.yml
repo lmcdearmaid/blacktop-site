@@ -63,4 +63,6 @@ collections:
           - { name: conv_l4, label: "05 Conversation — Statement line 4", widget: string, required: false }
           - { name: conv_note, label: "05 Conversation — Note", widget: text, required: false }
           - { name: footer_line, label: "Footer — Footer tagline", widget: string, required: false }
+          - { name: footer_email, label: "Footer — Email address", widget: string, required: false }
+          - { name: footer_linkedin, label: "Footer — LinkedIn link text", widget: string, required: false }
           - { name: footer_copyright, label: "Footer — Copyright", widget: string, required: false }
