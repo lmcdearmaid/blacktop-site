@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: images
+public_folder: /images
+
+collections:
+  - name: site
+    label: Website Text
+    files:
+      - name: content
+        label: Page Content
+        file: content.json
+        fields:
+          - { name: hero_headline, label: "Hero — Hero headline", widget: string, required: false }
+          - { name: hero_intro, label: "Hero — Hero intro paragraph", widget: text, required: false }
+          - { name: hero_cta_label, label: "Hero — Hero button label", widget: string, required: false }
+          - { name: hero_confidential, label: "Hero — Confidential note", widget: string, required: false }
+          - { name: moment_label, label: "01 The Moment — Section label", widget: string, required: false }
+          - { name: moment_headline, label: "01 The Moment — Headline", widget: string, required: false }
+          - { name: moment_body1, label: "01 The Moment — Body paragraph 1", widget: text, required: false }
+          - { name: moment_body2, label: "01 The Moment — Body paragraph 2", widget: text, required: false }
+          - { name: moment_c1, label: "01 The Moment — Condition 1", widget: string, required: false }
+          - { name: moment_c2, label: "01 The Moment — Condition 2", widget: string, required: false }
+          - { name: moment_c3, label: "01 The Moment — Condition 3", widget: string, required: false }
+          - { name: moment_c4, label: "01 The Moment — Condition 4", widget: string, required: false }
+          - { name: moment_c5, label: "01 The Moment — Condition 5", widget: string, required: false }
+          - { name: moment_c6, label: "01 The Moment — Condition 6", widget: string, required: false }
+          - { name: moment_close, label: "01 The Moment — Closing paragraph", widget: text, required: false }
+          - { name: who_label, label: "02 Who We Are — Section label", widget: string, required: false }
+          - { name: who_headline, label: "02 Who We Are — Headline", widget: string, required: false }
+          - { name: who_body, label: "02 Who We Are — Body paragraph", widget: text, required: false }
+          - { name: who_close_a, label: "02 Who We Are — Closing line (dark part)", widget: string, required: false }
+          - { name: who_close_b, label: "02 Who We Are — Closing line (grey part)", widget: string, required: false }
+          - { name: where_label, label: "03 Where We Operate — Section label", widget: string, required: false }
+          - { name: where_headline, label: "03 Where We Operate — Headline", widget: text, required: false }
+          - { name: where_subtitle, label: "03 Where We Operate — Gold subtitle", widget: string, required: false }
+          - { name: industry_1, label: "03 Where We Operate — Industry 1", widget: string, required: false }
+          - { name: industry_2, label: "03 Where We Operate — Industry 2", widget: string, required: false }
+          - { name: industry_3, label: "03 Where We Operate — Industry 3", widget: string, required: false }
+          - { name: industry_4, label: "03 Where We Operate — Industry 4", widget: string, required: false }
+          - { name: industry_5, label: "03 Where We Operate — Industry 5", widget: string, required: false }
+          - { name: industry_6, label: "03 Where We Operate — Industry 6", widget: string, required: false }
+          - { name: industry_7, label: "03 Where We Operate — Industry 7", widget: string, required: false }
+          - { name: how_label, label: "04 How We Work — Section label", widget: string, required: false }
+          - { name: how_headline, label: "04 How We Work — Headline", widget: string, required: false }
+          - { name: how_body, label: "04 How We Work — Body paragraph", widget: text, required: false }
+          - { name: how_pull_a, label: "04 How We Work — Pull line (dark part)", widget: string, required: false }
+          - { name: how_pull_b, label: "04 How We Work — Pull line (gold part)", widget: string, required: false }
+          - { name: discipline_1, label: "04 How We Work — Discipline 1", widget: string, required: false }
+          - { name: discipline_2, label: "04 How We Work — Discipline 2", widget: string, required: false }
+          - { name: discipline_3, label: "04 How We Work — Discipline 3", widget: string, required: false }
+          - { name: discipline_4, label: "04 How We Work — Discipline 4", widget: string, required: false }
+          - { name: discipline_5, label: "04 How We Work — Discipline 5", widget: string, required: false }
+          - { name: discipline_6, label: "04 How We Work — Discipline 6", widget: string, required: false }
+          - { name: how_body2, label: "04 How We Work — Closing paragraph", widget: text, required: false }
+          - { name: how_close, label: "04 How We Work — Final line", widget: string, required: false }
+          - { name: conv_label, label: "05 Conversation — Section label", widget: string, required: false }
+          - { name: conv_l1, label: "05 Conversation — Statement line 1", widget: string, required: false }
+          - { name: conv_l2, label: "05 Conversation — Statement line 2", widget: string, required: false }
+          - { name: conv_l3, label: "05 Conversation — Statement line 3", widget: string, required: false }
+          - { name: conv_l4, label: "05 Conversation — Statement line 4", widget: string, required: false }
+          - { name: conv_note, label: "05 Conversation — Note", widget: text, required: false }
+          - { name: footer_line, label: "Footer — Footer tagline", widget: string, required: false }
+          - { name: footer_copyright, label: "Footer — Copyright", widget: string, required: false }
